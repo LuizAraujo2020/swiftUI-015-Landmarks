@@ -11,6 +11,8 @@
 		6FBF908926F6501300024DE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF908826F6501300024DE6 /* ContentView.swift */; };
 		6FBF908B26F6501500024DE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF908A26F6501500024DE6 /* Assets.xcassets */; };
 		6FBF908E26F6501500024DE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF908D26F6501500024DE6 /* Preview Assets.xcassets */; };
+		6FBF909726F65B9800024DE6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF909626F65B9800024DE6 /* CircleImage.swift */; };
+		6FEE268B26F69E8700B42BA5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEE268A26F69E8700B42BA5 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,9 @@
 		6FBF908A26F6501500024DE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FBF908D26F6501500024DE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6FBF908F26F6501500024DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FBF909526F6510A00024DE6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6FBF909626F65B9800024DE6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		6FEE268A26F69E8700B42BA5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +41,7 @@
 		6FBF907A26F6501300024DE6 = {
 			isa = PBXGroup;
 			children = (
+				6FBF909526F6510A00024DE6 /* README.md */,
 				6FBF908526F6501300024DE6 /* swiftUI-015-Landmarks */,
 				6FBF908426F6501300024DE6 /* Products */,
 			);
@@ -54,9 +60,11 @@
 			children = (
 				6FBF908626F6501300024DE6 /* swiftUI_015_LandmarksApp.swift */,
 				6FBF908826F6501300024DE6 /* ContentView.swift */,
+				6FBF909626F65B9800024DE6 /* CircleImage.swift */,
 				6FBF908A26F6501500024DE6 /* Assets.xcassets */,
 				6FBF908F26F6501500024DE6 /* Info.plist */,
 				6FBF908C26F6501500024DE6 /* Preview Content */,
+				6FEE268A26F69E8700B42BA5 /* MapView.swift */,
 			);
 			path = "swiftUI-015-Landmarks";
 			sourceTree = "<group>";
@@ -139,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FBF908926F6501300024DE6 /* ContentView.swift in Sources */,
+				6FEE268B26F69E8700B42BA5 /* MapView.swift in Sources */,
 				6FBF908726F6501300024DE6 /* swiftUI_015_LandmarksApp.swift in Sources */,
+				6FBF909726F65B9800024DE6 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
