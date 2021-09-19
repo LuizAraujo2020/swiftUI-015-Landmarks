@@ -1,9 +1,9 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-A representation of a single landmark.
-*/
+//
+//  Landmark.swift
+//  swiftUI-015-Landmarks
+//
+//  Created by Luiz Carlos da Silva Araujo on 18/09/21.
+//
 
 import Foundation
 import SwiftUI
@@ -15,13 +15,21 @@ struct Landmark: Hashable, Codable, Identifiable {
     var park: String
     var state: String
     var description: String
+    
     var isFavorite: Bool
-
+    
+    var category: Category
+    enum Category: String, CaseIterable, Codable {
+        case lakes = "Lakes"
+        case rivers = "Rivers"
+        case mountains = "Mountains"
+    }
+    
     private var imageName: String
     var image: Image {
         Image(imageName)
     }
-
+    
     private var coordinates: Coordinates
     var locationCoordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(
@@ -33,4 +41,6 @@ struct Landmark: Hashable, Codable, Identifiable {
         var latitude: Double
         var longitude: Double
     }
+
+
 }

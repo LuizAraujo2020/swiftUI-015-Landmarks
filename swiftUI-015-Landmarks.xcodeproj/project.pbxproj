@@ -191,9 +191,9 @@
 				6F41D0F026F7BDC40020A0E2 /* Categories */,
 				6FBF908826F6501300024DE6 /* ContentView.swift */,
 				6F41D0E726F7AED70020A0E2 /* Hikes */,
-				6F41D0C926F77C2E0020A0E2 /* Helpers */,
 				6F41D0CA26F77C380020A0E2 /* Landmarks */,
 				6F41D0CF26F7840E0020A0E2 /* Badges */,
+				6F41D0C926F77C2E0020A0E2 /* Helpers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
