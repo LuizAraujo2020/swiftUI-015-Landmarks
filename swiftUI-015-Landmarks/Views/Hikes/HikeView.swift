@@ -42,10 +42,25 @@ struct HikeView: View {
 
             if showDetail {
                 HikeDetail(hike: hike)
+                    .transition(.moveAndFade)
             }
         }
     }
 }
+
+
+extension AnyTransition {
+    static var moveAndFade: AnyTransition {
+        let insertion = AnyTransition.move(edge: .trailing)
+            .combined(with: .opacity)
+        let removal = AnyTransition.scale
+            .combined(with: .opacity)
+        return .asymmetric(insertion: insertion, removal: removal)    /* Use the asymmetric(insertion:removal:) modifier to provide different transitions for when the view appears and disappears. */
+
+    }
+}
+
+
 
 struct HikeView_Previews: PreviewProvider {
     static var previews: some View {
