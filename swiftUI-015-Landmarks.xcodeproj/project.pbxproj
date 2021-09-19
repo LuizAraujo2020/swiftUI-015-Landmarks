@@ -111,10 +111,10 @@
 			children = (
 				6FBF908826F6501300024DE6 /* ContentView.swift */,
 				6FBF909626F65B9800024DE6 /* CircleImage.swift */,
-				6FEF409426F6CC7700E7D53C /* LandmarkDetail.swift */,
+				6FEE268A26F69E8700B42BA5 /* MapView.swift */,
 				6FEF409226F6C83300E7D53C /* LandmarkList.swift */,
 				6FEF408F26F6BD5000E7D53C /* LandmarkRow.swift */,
-				6FEE268A26F69E8700B42BA5 /* MapView.swift */,
+				6FEF409426F6CC7700E7D53C /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
